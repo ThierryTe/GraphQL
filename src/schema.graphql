@@ -1,0 +1,22 @@
+#costum type
+type User {
+    id: ID!
+    nom: String!
+    email: String!
+    age: Int
+}
+
+
+
+#type d'objet query pour toutes les requêtes qui arrivent
+type Query {
+    hello: String
+    users: [User!]!
+    user(id: ID!):User!
+}
+
+#type objet Mutation pour gérer toutes les opérations CRUD
+type Mutation {
+    createUser(id: ID!, nom: String!, email:String!, age: Int): User!
+    deleteUser(id: ID!): Boolean!
+}
