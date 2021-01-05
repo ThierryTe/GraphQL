@@ -1,6 +1,6 @@
 let users = [
-  { id: 1, nom: "Thierry", email: "thierry@gmail.com", age: 17 },
-  { id: 2, nom: "Tewendé", email: "tewende@gmail.com", age: 37 }
+  { id: 1, nom: "Thierry", email: "thiery@gmail.com", age: 17 },
+  { id: 2, nom: "Tewendé", email: "teende@gmail.com", age: 37 }
 ]
 
 
